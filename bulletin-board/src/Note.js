@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {FaTrash, FaPenAlt, FaSave} from 'react-icons/fa'
+import {FaPenAlt, FaTrash, FaSave} from 'react-icons/fa'
 
 class Note extends Component {
 	constructor(props) {
@@ -20,7 +20,7 @@ class Note extends Component {
 	}
 
 	remove() {
-        this.props.onRemove(this.props.index)
+		this.props.onRemove(this.props.index)
 	}
 
 	save(e) {
